@@ -18,6 +18,7 @@ const BeatsScreen = () => {
     loadBeats(page, setBeats , setHasMore, setLoading);
   }, [page, newBeat]);
 
+
   const onRefresh = async () => {
     setIsRefreshing(true);
     setPage(1);

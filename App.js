@@ -22,7 +22,7 @@ const App = () => {
   }
 
   return (
-      <StripeProvider publishableKey={"pk_test_51Qqyo5GEVIknUQ2OCxsrJH9oXTT2bjxxr1Eh9EpP4WQpRwPaaSTg2lpefIlErvz4z0ChzT1gSc69kOZqlWi3WvqQ00u4YyBSI6"}>
+      <StripeProvider publishableKey={publishableKey}>
       <BeatsProvider>
       <AudioPlayerProvider>
     <AppProvider>
